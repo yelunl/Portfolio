@@ -1,0 +1,38 @@
+#contact {
+    background: rgb(247, 239, 237);
+    padding: 1rem;
+}
+
+#contact ul {
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#contact ul li {
+    /* width: 5rem;
+    height: 5rem; */
+    /* border: solid black; */
+    /* border-radius: 5rem; */
+    /* overflow: hidden; */
+
+}
+
+#contact ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#contact ul li a img {
+    width: 5rem;
+    height: 5rem;
+    /* border-radius: 5rem; */
+}
+
+#contact h2 {
+    font-size: 5rem;
+    color: black;
+}

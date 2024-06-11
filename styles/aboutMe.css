@@ -1,0 +1,46 @@
+#aboutMe {
+    /* border: solid red; */
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+
+#aboutMe h2 {
+    width: 100%;
+    /* font-size: 20rem; */
+    font-size: 12rem;
+    opacity: 0.2;
+    text-align: center;
+}
+
+#aboutMe h2 span {
+    width: 100%;
+    transition: 2s;
+    /* overflow: hidden; */
+    text-shadow:
+    3px 3px 0 #ffffff,
+    -3px 3px 0 #ffffff,
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff;
+    color: black;
+    
+}
+
+#aboutMe h2 span:nth-of-type(2) {
+    width: 100%;
+    translate: 70rem 0rem;
+}
+
+#aboutMe h2 span:nth-of-type(3) {
+    translate: -70rem 0rem;
+}
+
+#aboutMe h2:hover span {
+    translate: 0rem 0rem;
+}
+
+#aboutMe div {
+    width: 100vw;
+
+}

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 100 80">
+                <!-- top -->
+                <line
+                    y1="0.5"
+                    x2="100"
+                    y2="0.5"
+                    stroke="rgb(124, 94, 220)"
+                    stroke-dasharray="100"
+                    stroke-width="0.5px"
+                />
+
+                <!-- right -->
+                <line
+                    x1="100"
+                    y1="0.5"
+                    x2="100"
+                    y2="80"
+                    stroke="rgb(124, 94, 220)"
+                    stroke-dasharray="100"
+                    stroke-width="0.5px"
+                />
+
+                <!-- bottom -->
+                <line
+                    x1="100"
+                    y1="80"
+                    x2="0.5"
+                    y2="80"
+                    stroke="rgb(124, 94, 220)"
+                    stroke-dasharray="100"
+                    stroke-width="0.5px"
+                />
+
+                <!-- left -->
+                <line
+                    x1="0.5"
+                    y1="80"
+                    x2="0.5"
+                    y2="0.5"
+                    stroke="rgb(124, 94, 220)"
+                    stroke-dasharray="100"
+                    stroke-width="0.5px"
+                />
+            </svg>

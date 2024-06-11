@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <svg>
+            <defs>
+                <filter id="filter">
+                    <feGaussianBlur
+                        in="SourceGraphic"
+                        stdDeviation="0"
+                        result="blur"
+                    />
+                    <feColorMatrix
+                        in="blur"
+                        mode="matrix"
+                        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                        result="goo"
+                    />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+        </svg>
+        <section id="intro">
+            <div class="background">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <h1>
+                <span>Front-end Developer</span><span>Yeliz</span>
+                <span>Unlu</span>
+            </h1>
+
+            <svg viewBox="0 0 500 300">
+                <path fill="black" d="M0,300 C73,300 418,300 500,300" />
+            </svg>
+        </section>
+        <section id="third">
+            <svg
+                viewBox="0 0 719 404"
+                preserveAspectRatio="none"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M658.5 1H60.5C52.8023 42.4715 37.9043 53.3117 1 60.5V343.5C39.4912 349.369 51.5097 363.665 60.5 403.5H658.5C665.579 364.391 678.476 350.915 718.5 343.5V60.5C678.759 52.7272 665.184 39.936 658.5 1Z"
+                    stroke="white"
+                />
+            </svg>
+
+            <article>
+                <h3><span>About Me</span></h3>
+                <p>
+                    Hello, I'm a third-year Communication and Multimedia Design
+                    student at Hogeschool van Amsterdam with a strong focus on
+                    UX design, accessibility, and front-end development. My
+                    passion lies in front-end development, which I've
+                    concentrated on throughout my studies. In my free time, I
+                    enjoy experimenting with new web technologies and
+                    continuously expanding my knowledge about the web. When I'm
+                    not programming, you'll likely find me engaging in fitness
+                    activities. I am eager to further improve my front-end
+                    development skills and stay updated with the latest industry
+                    trends.
+                </p>
+            </article>
+        </section>
+        <section id="projects">
+            <div>
+                <h2>Explore my projects</h2>
+                <a href="https://github.com/yelunl">Link to Github</a>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./images/api-2.png" alt="" />
+                        <h3>Movie database</h3>
+                        <p>Site where you can search for movies</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/dataviz-team.png" alt="" />
+                        <h3>
+                            Team project: visualize all members of parliament
+                            1815 - 2023
+                        </h3>
+                        <p>
+                            In this team project we visualized a huge dataset
+                            containing all the members of parliament from 1815
+                            to 2023 in a treemap
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img
+                            src="./images/dunkin-2.png"
+                            alt="dunkin donuts homepage"
+                        />
+                        <h3>Dunkin donut redesign to make it accessible</h3>
+                        <p>
+                            Recreate dunkin donuts website and make it more
+                            accessible
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/yelunl/tech-track-23-24">
+                        <img
+                            src="./images/dataviz.png"
+                            alt="data visualization"
+                        />
+                        <h3>Data visualization</h3>
+                        <p>
+                            Visualizing dataset about public facilities for each
+                            city in the Netherlands
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <div>
+                <svg viewBox="0 0 500 300">
+                    <path fill="black" d="M0,300 C73,300 418,300 500,300" />
+                </svg>
+            </div>
+            <div>
+                <h2>My skills</h2>
+            </div>
+            <ul>
+                <li>
+                    <a href="#"><h2>My skills</h2></a>
+                </li>
+                <li>
+                    <img src="./images/html.svg" alt="" />
+                    <p>HTML</p>
+                </li>
+                <li>
+                    <img src="./images/css.svg" alt="" />
+                    <p>CSS</p>
+                </li>
+                <li>
+                    <img src="./images/js.svg" alt="" />
+                    <p>Javascript</p>
+                </li>
+                <li>
+                    <img src="./images/express.svg" alt="" />
+                    <p>Express</p>
+                </li>
+                <li>
+                    <img src="./images/svelte.svg" alt="" />
+                    <p>Svelte</p>
+                </li>
+                <li>
+                    <img src="./images/d3.svg" alt="" />
+                    <p>D3.js</p>
+                </li>
+                <li>
+                    <img src="./images/mongo.svg" alt="" />
+                    <p>MongoDB</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Get in touch ☕️</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./images/email.svg" alt="" />
+                        Email
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/linkedin.svg" alt="" />
+                        Linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/github.svg" alt="" />
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>

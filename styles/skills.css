@@ -1,0 +1,212 @@
+#skills {
+    width: 100vw;
+    overflow: hidden;
+    background: rgb(247, 239, 237);
+}
+
+#skills svg {
+    width: 100%;
+    transform: rotate(180deg);
+    position: absolute;
+}
+
+#skills > div:nth-of-type(2) {
+    margin-top: 8rem;
+}
+
+#skills path {
+    width: 100vw;
+    animation: anima linear both;
+    animation-timeline: view();
+    animation-range: contain;
+}
+
+@keyframes anima {
+    100% {
+        d: path("M0,300 C73,251 418,251 500,300");
+    }
+}
+
+#skills div {
+    width: 100vw;
+}
+
+#skills ul{
+    width: 200rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    grid-template-rows: 35rem;
+    list-style: none;
+
+    perspective: 7px;
+    overflow-y: hidden;
+
+    flex-shrink: 0;
+    
+}
+
+#skills li{
+    background: white;
+    box-shadow: 0.4rem 0.5rem 1rem #dedede78;
+    width: 20rem;
+    height: 13rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    display: grid;
+    place-content: center;
+}
+
+#skills li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills li:nth-of-type(5) img {
+    width: 100%;
+}
+
+#skills li:nth-of-type(odd) {
+    align-self: end;
+}
+
+#skills li:nth-of-type(even) {
+    align-self: start;
+}
+
+#skills li:nth-of-type(1) {
+    position: absolute;
+    transform: translateZ(0);
+    width: 300rem;
+    visibility: hidden;
+}
+
+#skills li:nth-of-type(2) {
+    transform: translateZ(-2px);
+
+}
+
+#skills li:nth-of-type(3) {
+    transform: translateZ(-1px);
+
+}
+
+#skills li:nth-of-type(4) {
+    transform: translateZ(-4px);
+
+}
+
+#skills li:nth-of-type(5) {
+    transform: translateZ(-3px);
+
+}
+
+#skills li:nth-of-type(6) {
+    transform: translateZ(-2px);
+}
+
+#skills li:nth-of-type(7) {
+    transform: translateZ(-1px);
+}
+
+li:nth-of-type(8) {
+    transform: translateZ(-2px);
+}
+
+#skills img {
+    /* width: 100%; */
+}
+
+/* #skills > * {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+*/
+
+#skills h2 {
+    color: black;
+    width: 100vw;
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+#skills h2:hover {
+
+}
+
+
+#skills {
+    /* display: grid; */
+    /* place-content: center; */
+}
+
+#skills > * {
+    /* grid-column: 1/1;
+    grid-row: 1/1; */
+    /* grid-area: 1/1; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #skills {
+    position: relative;
+    text-align: center;
+}
+
+#skills h2 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    color: black;
+}
+
+#skills p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+#skills:hover p {
+    opacity: 1;
+}
+
+#skills:hover p:nth-of-type(1) {
+    transform: translate(-50%, -150%) scale(1);
+}
+
+#skills:hover p:nth-of-type(2) {
+    transform: translate(-150%, -50%) scale(1);
+}
+
+#skills:hover p:nth-of-type(3) {
+    transform: translate(-50%, 50%) scale(1);
+}
+
+#skills:hover p:nth-of-type(4) {
+    transform: translate(50%, -50%) scale(1);
+}
+
+#skills:hover p:nth-of-type(5) {
+    transform: translate(150%, -50%) scale(1);
+}
+
+#skills:hover p:nth-of-type(6) {
+    transform: translate(-50%, 150%) scale(1);
+} */
