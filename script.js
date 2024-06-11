@@ -112,8 +112,8 @@ const observer = new IntersectionObserver((entries, observer) => {
     })
 }, {threshold: 0.90})
 
-const lineAnim = document.querySelector('#third path');
-const target = document.querySelector('#third');
+const lineAnim = document.querySelector('#aboutme path');
+const target = document.querySelector('#aboutme');
 
 console.log(lineAnim.getTotalLength());
 // 6415.72607421875
