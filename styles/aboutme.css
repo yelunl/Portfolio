@@ -1,0 +1,71 @@
+#aboutme {
+    padding: 1rem;
+    height: 100vh;
+    background: rgb(15, 15, 15);
+    display: grid;
+    grid-template-columns: minmax(10rem, 70rem);
+    grid-template-rows: max-content;
+    place-content: center;
+
+}
+
+#aboutme svg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100%;
+}
+
+#aboutme.lineAnim svg path {
+    animation: draw 7s linear forwards;
+}
+
+#aboutme path {
+    stroke-dashoffset: 6415.72607421875;
+    stroke-dasharray: 6415.72607421875;
+}
+
+@keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+#aboutme article {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 3rem;
+}
+
+/* rgb(41, 21, 54); = background */
+/* rgb(180, 167, 227); = lightest background */
+/* rgb(124, 94, 220); = darkest background */
+
+#aboutme h3 {
+    overflow: hidden;
+    height:max-content;
+    font-size: 5rem;
+    text-align: center;
+    margin: 26px;
+}
+
+#aboutme h3 span {
+    position: relative;
+    bottom: -5rem;
+    transition: 1s;
+    transition-delay: 2s;
+}
+
+#aboutme.titleAnim h3 span {
+    bottom: 0rem;
+}
+
+#aboutme p {
+    opacity: 0;
+    transition: 3s;
+    transition-delay: 2s;
+    text-align: center;
+}
+
+#aboutme.parAnim p {
+    opacity: 1;
+}
