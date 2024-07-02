@@ -5,6 +5,10 @@
 @import url('projects.css');
 @import url('contact.css');
 
+* {
+    box-sizing: border-box;
+}
+
 body, html {
     margin: 0;
     background-color: rgb(244, 244, 244);
@@ -17,6 +21,10 @@ h1, h2, h3, a, p {
 h2 {
     margin: 0;
     color: white;
+}
+
+p {
+    line-height: 1.7rem;
 }
 
 section:not(#skills, #intro, #projects) {

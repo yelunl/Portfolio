@@ -112,7 +112,7 @@ const observer = new IntersectionObserver((entries, observer) => {
 
         }
     })
-}, {threshold: 0.90})
+}, {threshold: 0.70})
 
 const lineAnim = document.querySelector('#aboutme path');
 const target = document.querySelector('#aboutme');
