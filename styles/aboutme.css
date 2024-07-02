@@ -43,6 +43,17 @@
 #aboutme img {
     border-radius: 5rem;
     width: 7rem;
+    opacity: 0;
+}
+
+.imgFade img {
+    animation: imgFade 2s 1s forwards;
+}
+
+@keyframes imgFade {
+    to {
+        opacity: 1;
+    }
 }
 
 /* rgb(41, 21, 54); = background */

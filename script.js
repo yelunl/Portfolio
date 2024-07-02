@@ -100,6 +100,7 @@ const observer = new IntersectionObserver((entries, observer) => {
             item.target.classList.add('lineAnim');
             item.target.classList.add('titleAnim')
             item.target.classList.add('parAnim')
+            item.target.classList.add('imgFade')
             // lineAnim.addEventListener('animationend', (e) => {
 
             // })
@@ -107,6 +108,7 @@ const observer = new IntersectionObserver((entries, observer) => {
             item.target.classList.remove('lineAnim');
             item.target.classList.remove('titleAnim');
             item.target.classList.remove('parAnim');
+            item.target.classList.remove('imgFade');
 
         }
     })
