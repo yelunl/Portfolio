@@ -34,7 +34,7 @@
 #aboutme article {
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 5rem;
+    padding: 5rem 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
