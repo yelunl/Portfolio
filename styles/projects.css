@@ -3,7 +3,8 @@
     grid-template-columns: 25rem 1fr;
     grid-template-rows: auto;
     background: rgb(15, 15, 15);
-    padding: 1rem;
+    padding: 2rem;
+    padding-bottom: 20rem;
 }
 
 /* rgb(41, 21, 54); = background */
@@ -32,7 +33,7 @@
 #projects li{
     border: solid rgb(216, 216, 216);
     width: 15rem;
-    height: 40rem;
+    /* height: 40rem; */
     border-radius: 30rem;
     background: rgb(15, 15, 15);
     padding: 2rem;

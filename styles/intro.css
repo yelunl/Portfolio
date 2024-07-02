@@ -5,18 +5,12 @@
 }
 
 #intro {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100lvh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: grid;
-    place-content: center; */
-    /* background-color: oklch(35.59% 0.111 249.88); */
-    /* background: radial-gradient(black 10%, rgb(217, 227, 213) 10%), rgb(217, 227, 213); */
-    /* background: rgb(217, 227, 213); */
     background-size: 1rem 1rem;
-    padding: 0;
     position: relative;
 
 }
