@@ -1,10 +1,8 @@
 #projects {
     display: grid;
-    grid-template-columns: 25rem 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-template-rows: auto;
     background: rgb(15, 15, 15);
-    padding: 2rem;
-    padding-bottom: 20rem;
 }
 
 /* rgb(41, 21, 54); = background */
@@ -19,6 +17,7 @@
     grid-template-rows: auto;
     transition: 2s;
     overflow-x: scroll;
+    padding: 0;
 }
 
 #projects ul:hover {

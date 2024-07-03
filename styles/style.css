@@ -27,8 +27,14 @@ p {
     line-height: 1.7rem;
 }
 
-section:not(#skills, #intro, #projects) {
+section:not(#skills, #intro, #contact) {
     padding: 2rem;
+    padding-bottom: 12rem;
+
+}
+
+#skills {
+    padding-bottom: 12rem;
 }
 
 article {
