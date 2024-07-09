@@ -37,12 +37,9 @@
     grid-template-columns: repeat(auto-fit, 25rem);
     grid-template-rows: 35rem;
     list-style: none;
-
     perspective: 7px;
     overflow-y: hidden;
-
     flex-shrink: 0;
-    
 }
 
 #skills li{
@@ -114,99 +111,9 @@ li:nth-of-type(8) {
     transform: translateZ(-2px);
 }
 
-#skills img {
-    /* width: 100%; */
-}
-
-/* #skills > * {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
-*/
-
 #skills h2 {
     color: black;
     width: 100vw;
     text-align: center;
     font-size: 5rem;
 }
-
-
-#skills h2:hover {
-
-}
-
-
-#skills {
-    /* display: grid; */
-    /* place-content: center; */
-}
-
-#skills > * {
-    /* grid-column: 1/1;
-    grid-row: 1/1; */
-    /* grid-area: 1/1; */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #skills {
-    position: relative;
-    text-align: center;
-}
-
-#skills h2 {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    cursor: pointer;
-    color: black;
-}
-
-#skills p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    opacity: 0;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
-
-#skills:hover p {
-    opacity: 1;
-}
-
-#skills:hover p:nth-of-type(1) {
-    transform: translate(-50%, -150%) scale(1);
-}
-
-#skills:hover p:nth-of-type(2) {
-    transform: translate(-150%, -50%) scale(1);
-}
-
-#skills:hover p:nth-of-type(3) {
-    transform: translate(-50%, 50%) scale(1);
-}
-
-#skills:hover p:nth-of-type(4) {
-    transform: translate(50%, -50%) scale(1);
-}
-
-#skills:hover p:nth-of-type(5) {
-    transform: translate(150%, -50%) scale(1);
-}
-
-#skills:hover p:nth-of-type(6) {
-    transform: translate(-50%, 150%) scale(1);
-} */

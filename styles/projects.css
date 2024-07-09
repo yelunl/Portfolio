@@ -5,10 +5,6 @@
     background: rgb(15, 15, 15);
 }
 
-/* rgb(41, 21, 54); = background */
-/* rgb(180, 167, 227); = lightest background */
-/* rgb(124, 94, 220); = darkest background */
-
 #projects ul{
     list-style: none;
     display: grid;
@@ -37,7 +33,6 @@
 #projects li{
     border: solid rgb(216, 216, 216);
     width: 19rem;
-    /* height: 40rem; */
     border-radius: 30rem;
     background: rgb(15, 15, 15);
     padding: 2rem;
