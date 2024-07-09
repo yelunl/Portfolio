@@ -14,9 +14,12 @@
     /* width: 5rem;
     height: 5rem; */
     /* border: solid black; */
-    /* border-radius: 5rem; */
     /* overflow: hidden; */
+    border-radius: 5px;
+    /* background-color: white; */
 
+    background-color: rgb(255, 255, 255);
+    /* border: solid rgb(225, 225, 225); */
 }
 
 #contact ul li a {
@@ -29,6 +32,7 @@
 #contact ul li a img {
     width: 5rem;
     height: 5rem;
+    padding-bottom: 0.5rem;
     /* border-radius: 5rem; */
 }
 
