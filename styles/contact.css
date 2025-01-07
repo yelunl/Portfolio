@@ -11,7 +11,8 @@
 
 #contact ul li {
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    /* background-image: radial-gradient(at 0% 0%, red 50%, white 50%); */
 }
 
 #contact ul li a {

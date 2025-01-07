@@ -1,5 +1,5 @@
 #aboutme {
-    padding: 1rem;
+    padding-top: 12rem !important;
     background: rgb(15, 15, 15);
     display: grid;
     grid-template-columns: minmax(10rem, 60rem);
